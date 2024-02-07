@@ -93,12 +93,14 @@ public class Product {
      * Builds a String representing a user-friendly representation of the object state
      * @return Details of the specific product
      */
-    public String toString()
+    public String toString(){
+        return "Product name: " +productName+ ", Product code: "+productCode+ ", Product cost: " +unitCost+ ", In current product line: " +inCurrentProductLine;
+
+
+    }
+
     //  The toString should return a String in the form e.g:
     //  "Product description: Flatscreen TV  product code: 2000  unit cost: 1000 and currently in product line: Y"
 
-    {
-        return "TO DO WRITE TOSTRING";
-    }
 
 }

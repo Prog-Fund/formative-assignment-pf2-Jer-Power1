@@ -10,7 +10,7 @@ class ProductTest {
     private Product tv42Inches, tv50Inches, tv60Inches, noNameProduct;
 
     @BeforeEach
-    void setUp() {
+     void setUp() {
         //name 19 chars
         tv42Inches = new Product("Television 42Inches", 999, 1, true);
         //name 20 chars
